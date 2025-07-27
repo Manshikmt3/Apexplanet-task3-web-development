@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+body{
+    background-color:burlywood;
+}
+header {
+  background: #00796b;
+  color: white;
+  padding: 15px;
+}
+
+.carousel-section, .api-section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+.carousel img {
+  display: none;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+button {
+  background: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #004d40;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background: #e0f7fa;
+  }
+  .carousel-section, .api-section {
+    width: 95%;
+  }
+}

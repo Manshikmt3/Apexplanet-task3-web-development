@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Responsive Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive Responsive Site</h1>
+  </header>
+
+
+  <section class="carousel-section">
+    <h2>Image Carousel</h2>
+    <div class="carousel">
+      <img src="https://picsum.dev/image/1275/view" class="carousel-image active">
+      <img src="https://picsum.dev/image/1276/view" class="carousel-image">
+      <img src="https://picsum.dev/image/1277/view" class="carousel-image">
+      <img src="https://picsum.dev/image/1180/view" class="carousel-image">
+      <img src="https://picsum.dev/image/1182/view" class="carousel-image">
+      <img src="https://picsum.dev/image/1187/view" class="carousel-image">
+      <img src="https://picsum.dev/image/1186/view" class="carousel-image">
+
+    </div>
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+  </section>
+
+
+
+
+  <section class="api-section">
+    <h2>Random Joke (API)</h2>
+    <button id="getJoke">Get a Joke</button>
+    <p id="joke"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
